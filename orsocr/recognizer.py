@@ -1,7 +1,7 @@
 from PIL import Image
 import pytesseract
 
-from preprocessor import process
+from orsocr.preprocessor import process
 
 
 def recognize(image):

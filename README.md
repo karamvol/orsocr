@@ -15,6 +15,6 @@ or
 
     from orsocr.recognizer import recognize
 
-    filename = 'orsocr/three.png' # some file name
+    filename = './orsocr/three.png' # some file name
     text_list = recognize(filename)
     print(text_list)

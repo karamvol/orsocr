@@ -9,4 +9,4 @@ def orsocr_core(filename):
 
 
 if __name__ == '__main__':
-    print(orsocr_core('three.png'))
+    print(orsocr_core('./orsocr/three.png'))
