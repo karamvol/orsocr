@@ -4,7 +4,7 @@ from PIL import Image
 from pytesseract import pytesseract
 
 
-moniteur = "three.png"
+moniteur = "two.png"
 
 image = cv2.imread(moniteur, 1)
 
