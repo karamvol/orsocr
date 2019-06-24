@@ -11,6 +11,8 @@ hOpital Regional de Saint-louis Object Character Recognition (orsocr)
 
 # Usage
 
+    git clone https://github.com/sapienscube/orsocr
+    cd orsocr
     python orsocr/main.py
 
 or
