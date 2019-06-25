@@ -41,4 +41,6 @@ def process(filename):
 
 
 if __name__ == '__main__':
-    print(process('three.png'))
+    cv2.imshow("Processed", process('./orsocr/three.png'))
+    if cv2.waitKey(0) == ord('q'):
+        cv2.destroyAllWindows()
