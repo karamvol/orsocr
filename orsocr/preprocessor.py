@@ -21,7 +21,7 @@ def process(filename):
         v, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)
 
     # Finding contours
-    contours, hierarchy = cv2.findContours(
+    image, contours, hierarchy = cv2.findContours(
         thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
     # Filling contours
